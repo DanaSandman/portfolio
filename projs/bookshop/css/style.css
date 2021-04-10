@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(156, 190, 199);
+}
+
+.bookshop-list{
+    background-color: rgb(217, 235, 243);
+}
+
+button ,select{
+cursor: pointer;
+}
+
+body.rtl {
+    direction: rtl;
+}
+
+body.rtl{
+    float: left;
+} 

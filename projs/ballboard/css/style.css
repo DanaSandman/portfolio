@@ -1,0 +1,9 @@
+body {background-color: black; color:white}
+
+.cell {width:40px; height:40px;text-align: center}
+.cell img {width:25px; height:auto}
+.floor {background-color: rgb(161, 248, 235)}
+.wall {background-color: rgb(232, 66, 166)}
+
+
+

@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Book-Shop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body onload="onInit()">
+    <select  type="button" class="btn btn-secondary btn-sm" onchange="onSetLang(this.value)">
+        <option value="en">English</option>
+        <option value="he">עברית</option>
+    </select>
+    <button  type="button" class="btn btn-secondary btn-sm">
+        <span class="add-book mt-4" data-trans="add-book" onclick="onAddBook()">Creat new book</span>
+    </button>
+
+    <section class="bookshop-list">
+        <table class="table table-hover">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col" data-trans="id">Id</th>
+                <th scope="col" data-trans="title">Title</th>
+                <th scope="col" data-trans="price">Price</th>
+                <th scope="col" data-trans="rate">Rate</th>
+                <th scope="col" data-trans="actions">Actions</th>
+              </tr>
+            </thead>
+            <tbody class="table-body">
+            </tbody>
+          </table>
+          
+        <!-- Modal -->
+        <div class="modal fade modali" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title book-title" data-trans="title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button"  data-trans="close" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <h6 data-trans="price"></h6>
+                    <div class="modal-body">
+                
+                    </div>
+                    <div class="modal-footer">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+    <script src="./lib/jquery-easing/jquery.easing.min.js"></script>
+
+
+
+    <script src="./js/services/storage.service.js"></script>
+    <script src="js/services/i18n.service.js"></script>
+    <script src="js/services/util.service.js"></script>
+    <script src="./js/services/book-shop.service.js"></script>
+    <script src="js/book-shop.controller.js"></script>
+</body>
+
+</html>

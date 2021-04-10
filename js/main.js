@@ -4,14 +4,6 @@ $(document).ready(initPage)
 $(document).ready(initModal)
 
 var gProjs = [{
-  id: "sokoban",
-  name: "Sokoban",
-  title: "Better push those boxes",
-  desc: "lorem ipsum lorem ipsum lorem ipsum",
-  url: "projs/sokoban",
-  publishedAt: 1448693940000,
-  labels: ["Matrixes", "keyboard events"],
-}, {
   id: "minesweeper",
   name: "minesweeper",
   title: "Better push those boxes",
@@ -19,7 +11,15 @@ var gProjs = [{
   url: "projs/minesweeper",
   publishedAt: 1448693940000,
   labels: ["Matrixes", "keyboard events"],
-}, {
+},{
+  id: "bookshop",
+  name: "bookshop",
+  title: "Better push those boxes",
+  desc: "lorem ipsum lorem ipsum lorem ipsum",
+  url: "projs/bookshop",
+  publishedAt: 1448693940000,
+  labels: ["Matrixes", "keyboard events"],
+},{
   id: "inpicture",
   name: "inpicture",
   title: "Better push those boxes",
@@ -27,15 +27,32 @@ var gProjs = [{
   url: "projs/inpicture",
   publishedAt: 1448693940000,
   labels: ["Matrixes", "keyboard events"],
-}, {
-  id: "aaa",
-  name: "aaa",
+},{
+  id: "pacman",
+  name: "pacman",
   title: "Better push those boxes",
   desc: "lorem ipsum lorem ipsum lorem ipsum",
-  url: "projs/sokoban",
+  url: "projs/pacman",
   publishedAt: 1448693940000,
   labels: ["Matrixes", "keyboard events"],
-}];
+},{
+  id: "touchnums",
+  name: "touchnums",
+  title: "Better push those boxes",
+  desc: "lorem ipsum lorem ipsum lorem ipsum",
+  url: "projs/touchnums",
+  publishedAt: 1448693940000,
+  labels: ["Matrixes", "keyboard events"],
+},{
+  id: "ballboard",
+  name: "ballboard",
+  title: "Better push those boxes",
+  desc: "lorem ipsum lorem ipsum lorem ipsum",
+  url: "projs/ballboard",
+  publishedAt: 1448693940000,
+  labels: ["Matrixes", "keyboard events"],
+}
+];
 
 
 function initPage() {
@@ -65,8 +82,6 @@ function initPage() {
 
 
 function initModal() {
-
-  console.log('dddddddd')
 
   var strHTML =
 

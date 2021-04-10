@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(176, 240, 240);
+}
+
+.levels button{
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s;
+    box-shadow: 0px 0px 16px #18f75b;
+    background: #a1d6f5;
+    color: #1014facb;
+}
+
+td {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.num-buttons{
+    font-size: x-large;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    color: #1014facb;
+    width: 80px;
+    height: 65px;
+    background: #a1d6f5;
+    box-shadow: 0px 0px 16px #18f75b;
+    border-radius: 2px;
+    z-index: 3;
+    border: 2px solid;
+    transition: all 1s ease-in-out;
+    border-image: linear-gradient(#0d0154, #4275d5) 30;
+}
+.on{
+    background-color: lightgreen;
+}

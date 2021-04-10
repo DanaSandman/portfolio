@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>Touch the Numbers</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+<body>
+    <div class="headers">
+        <button calss="reset" onclick=init()>New Game</button>
+        <h1>Touch the Numbers</h1>
+
+    </div>
+    <div class="levels">
+        <button calss="button-easy" onclick=levels(16)>Easy[16]</button>
+        <button calss="button-hard" onclick=levels(25)>Hard[25]</button>
+        <button calss="button-hard" onclick=levels(36)>Extreme![36]</button>
+
+    </div>
+    <div class="time-num">
+        <h3 class="time">Time</h3>
+        <h3 class="next-num">Next Number 1</h3>
+    </div>
+    <div class=table createTable()></div>
+    <div class="numbers-board">
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

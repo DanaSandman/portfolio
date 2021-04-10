@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+/* 
+.formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.victorious {
+  height: 50 ;
+  background-color: palevioletred;
+  margin-left: 70%;
+}
+
+button {
+  background-color: pink;
+  border:purple 2px;
+}
+
+
+
